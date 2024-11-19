@@ -206,7 +206,7 @@ ol {
   }
 
   .recipe_image {
-    margin: var(--spacing-500);
+    margin: var(--spacing-500) var(--spacing-500) 0 var(--spacing-500);
     height: 18.75rem;
     border-radius: 0.75rem;
   }
@@ -229,7 +229,7 @@ ol {
   }
 
   .recipe_image {
-    margin: var(--spacing-500);
+    margin: var(--spacing-500) var(--spacing-500) 0 var(--spacing-500);
     height: 18.75rem;
     border-radius: 0.75rem;
   }
