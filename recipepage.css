@@ -352,7 +352,7 @@ ol {
     padding: var(--spacing-1600, 128px) var(--spacing-600, 48px);
     justify-content: center;
     align-items: center;
-    gap: var(--spacing-100, 8px);
+    /*gap: var(--spacing-100, 8px);*/
   }
   #text-section {
     padding: 0;
