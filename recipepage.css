@@ -13,6 +13,7 @@ html {
 }
 body {
   background-color: #f3e5d7;
+
 }
 :root {
   --spacing-100: 0.5rem;
@@ -313,19 +314,18 @@ ol {
 @media (min-width: 768px) {
   main {
     display: flex;
-
     padding: var(--spacing-1600, 128px) var(--spacing-600, 48px);
     justify-content: center;
     align-items: center;
     gap: var(--spacing-100, 8px);
     background: var(--color-stone-100, #f3e5d7);
     width: 768px;
+    background-color: green;
   }
   article {
     background-color: white;
     display: flex;
-    width: 100%;
-    max-width: 616px;
+    width: 616px;
     padding: var(--spacing-500, 40px);
     flex-direction: column;
     align-items: flex-start;
@@ -346,9 +346,21 @@ ol {
   }
 }
 @media (min-width: 1024px) {
+  main {
+    display: flex;
+    width: 1440px;
+    padding: var(--spacing-1600, 128px) var(--spacing-600, 48px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-100, 8px);
+  }
   article {
+    display: flex;
     width: 736px;
-    max-width: 736px;
+    padding: var(--spacing-500, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-500, 40px);
     flex-shrink: 0;
     background-color: blue;
   }
