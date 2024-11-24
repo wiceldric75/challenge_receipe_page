@@ -106,7 +106,6 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
-  background-color: red;
 }
 
 #preparation-time {
@@ -118,8 +117,7 @@ h1 {
   align-self: stretch;
   border-radius: var(--spacing-150, 12px);
   background: var(--color-rose-50, #fff7fb);
-  background-color: red;
-}
+
 
 #preparation-time h2 {
   color: var(--color-rose-800, #7a284e);
@@ -341,7 +339,7 @@ ol {
     padding: var(--spacing-1600, 128px) var(--spacing-600, 48px);
     justify-content: center;
     align-items: center;
-    gap: var(--spacing-100, 8px);
+    gap: 0px;
     background: var(--color-stone-100, #f3e5d7);
     width: 768px;
   }
