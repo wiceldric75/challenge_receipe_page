@@ -23,6 +23,335 @@ body {
   --spacing-500: 2.5rem;
   --spacing-1600: 8rem;
 }
+main {
+  display: flex;
+  width: 375px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--color-white, #fff);
+  margin: 0 auto;
+}
+article {
+  display: flex;
+  width: 375px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+figure {
+  height: 171px;
+  align-self: stretch;
+  background-image: url("assets/images/image-omelette.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#text-section {
+  display: flex;
+  padding: var(--spacing-400, 32px) var(--spacing-400, 32px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-400, 32px);
+  align-self: stretch;
+}
+
+h1 {
+  color: var(--color-stone-900, #312e2c);
+
+  /* Mobile/text-preset-1 */
+  font-family: "Young Serif";
+  font-size: var(--font-size-mobile-text-preset-1, 36px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 36px */
+}
+
+#header-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300, 24px);
+  align-self: stretch;
+}
+
+#header-header p {
+  color: var(--color-stone-600, #5f564d);
+
+  /* Desktop/text-preset-4 */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+#preparation-time {
+  display: flex;
+  padding: var(--spacing-300, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-200, 16px);
+  align-self: stretch;
+  border-radius: var(--spacing-150, 12px);
+  background: var(--color-rose-50, #fff7fb);
+}
+
+#preparation-time h2 {
+  color: var(--color-rose-800, #7a284e);
+
+  /* Desktop/text-preset-3 */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-3, 20px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 20px */
+}
+
+h2 {
+  color: var(--color-brown-800, #854632);
+
+  /* Desktop/text-preset-2 */
+  font-family: "Young Serif";
+  font-size: var(--font-size-desktop-text-preset-2, 28px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 28px */
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  display: flex;
+  padding-left: var(--spacing-100, 8px);
+  align-items: center;
+  gap: var(--spacing-200, 16px);
+  align-self: stretch;
+}
+
+.dot {
+  width: 4px; /* Adjust size as per design */
+  height: 4px;
+  background-color: var(--color-rose-800, #7a284e); /* Dot color */
+  border-radius: 50%; /* Makes it circular */
+  margin-right: 0.75rem; /* Space between dot and text */
+  flex-shrink: 0; /* Prevents dot from shrinking */
+  margin-right: 12px;
+}
+
+#preparation-time .label {
+  color: var(--color-stone-600, #5f564d);
+
+  /* Desktop/text-preset-4 */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+#preparation-time .value {
+  color: var(--color-stone-600, #5f564d);
+
+  /* Desktop/text-preset-4 */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300, 24px);
+  align-self: stretch;
+}
+
+#ingredients ul li .value {
+  flex: 1 0 0;
+  color: var(--color-stone-600, #5f564d);
+
+  /* Desktop/text-preset-4 */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.section-dividers {
+  height: 1px;
+  width: 100%;
+  background: var(--color-stone-150, #e3ddd7);
+}
+
+#instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300, 24px);
+  align-self: stretch;
+}
+#instructions li {
+  align-items: flex-start;
+}
+ol {
+  list-style-type: none; /* Removes the browser's default numbers 
+  padding-left: 0; /* Removes default padding */
+}
+.custom-number {
+  color: var(--color-brown-800, #854632);
+
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+#instructions ol li .value {
+  flex: 1 0 0;
+  /* Desktop/text-preset-4 */
+  color: var(--color-stone-600, #5f564d);
+
+  /* Desktop/text-preset-4 */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+#instructions ol li .label {
+  color: var(--color-stone-600, #5f564d);
+
+  /* Desktop/text-preset-4-bold */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+
+#nutrition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300, 24px);
+  align-self: stretch;
+}
+#nutrition p {
+  color: var(--color-stone-600, #5f564d);
+
+  /* Desktop/text-preset-4 */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  align-self: stretch;
+}
+#nutrition h2 {
+  color: var(--color-brown-800, #854632);
+
+  /* Desktop/text-preset-2 */
+  font-family: "Young Serif";
+  font-size: var(--font-size-desktop-text-preset-2, 28px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 28px */
+  align-self: stretch;
+}
+#nutrition-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-200, 16px);
+  align-self: stretch;
+}
+
+.nutrition-divider {
+  height: 1px;
+  width: 100%;
+  background: #e3ddd7;
+}
+.nutrition-row .label {
+  color: var(--color-stone-600, #5f564d);
+
+  /* Desktop/text-preset-4 */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  flex: 1 0 0;
+}
+
+.nutrition-row .value {
+  color: var(--color-brown-800, #854632);
+
+  /* Desktop/text-preset-4-bold */
+  font-family: Outfit;
+  font-size: var(--font-size-desktop-text-preset-4, 16px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  flex: 1 0 0;
+}
+
+.nutrition-row {
+  display: flex;
+  padding: 0px var(--spacing-400, 32px);
+  align-items: center;
+  gap: var(--spacing-200, 16px);
+  align-self: stretch;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+
+    padding: var(--spacing-1600, 128px) var(--spacing-600, 48px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-100, 8px);
+    background: var(--color-stone-100, #f3e5d7);
+    width: 768px;
+  }
+  article {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    max-width: 616px;
+    padding: var(--spacing-500, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-500, 40px);
+    flex: 1 0 0;
+    border-radius: var(--spacing-300, 24px);
+  }
+  figure {
+    height: 300px;
+    border-radius: var(--spacing-150, 12px);
+  }
+  #text-section {
+    padding: 0px;
+  }
+  h1 {
+    font-size: var(--font-size-desktop-text-preset-1, 40px);
+  }
+}
+@media (min-width: 1024px) {
+  article {
+    width: 736px;
+    max-width: 736px;
+    flex-shrink: 0;
+  }
+}
+/*
 
 .main_container {
   display: flex;
@@ -38,45 +367,26 @@ body {
   gap: var(--spacing-400);
   margin: 0 var(--spacing-400) var(--spacing-400) var(--spacing-400);
 }
-h1 {
-  color: var(--color-stone-900, #312e2c);
 
-  /* Mobile/text-preset-1 */
-  font-family: "Young Serif";
-  font-size: var(--font-size-mobile-text-preset-1, 2.25rem);
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%; /* 36px */
-  margin: 0 0 1.5rem 0;
-}
-h2 {
-  color: var(--color-brown-800, #854632);
-  /* Desktop/text-preset-2 */
-  font-family: "Young Serif";
-  font-size: var(--font-size-desktop-text-preset-2, 1.75rem);
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%; /* 28px */
-}
 .prep_title {
   color: var(--color-rose-800, #7a284e);
-  /* Desktop/text-preset-3 */
+  /Desktop/text-preset-3 
   font-family: Outfit;
   font-size: var(--font-size-desktop-text-preset-3, 1.25rem);
   font-style: normal;
   font-weight: 600;
-  line-height: 100%; /* 20px */
+  line-height: 100%; 20px 
   margin-bottom: 1rem;
 }
 p {
   color: var(--color-stone-600, #5f564d);
 
-  /* Desktop/text-preset-4 */
+   Desktop/text-preset-4 
   font-family: Outfit;
   font-size: var(--font-size-desktop-text-preset-4, 1rem);
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 24px */
+  line-height: 150%;  24px 
 }
 
 .recipe_image {
@@ -90,7 +400,7 @@ p {
 
 span {
   color: var(--color-stone-600, #5f564d);
-  /* Desktop/text-preset-4 */
+   Desktop/text-preset-4 
   font-family: Outfit;
   font-size: var(--font-size-desktop-text-preset-4, 1rem);
   font-style: normal;
@@ -104,31 +414,31 @@ span {
 
 ul {
   list-style-position: inside;
-  list-style-type: none; /* Remove default dots */
-  padding-left: 0; /* Adjust padding if needed */
+  list-style-type: none;  Remove default dots 
+  padding-left: 0;  Adjust padding if needed 
 }
 li {
   margin-bottom: 0.5rem;
 }
 ul li::before {
-  content: "•"; /* Unicode or any custom character */
-  color: #854632; /* Set custom color */
-  font-size: 1rem; /* Adjust size */
-  margin-right: 0.5rem; /* Add spacing */
+  content: "•"; /* Unicode or any custom character 
+  color: #854632; /* Set custom color 
+  font-size: 1rem; /* Adjust size 
+  margin-right: 0.5rem; /* Add spacing 
 }
 ol {
-  list-style-type: none; /* Removes the browser's default numbers */
-  padding-left: 0; /* Removes default padding */
+  list-style-type: none; /* Removes the browser's default numbers 
+  padding-left: 0; /* Removes default padding 
 }
 .custom-number {
   color: var(--color-brown-800, #854632);
 
-  /* Desktop/text-preset-4-bold */
+   Desktop/text-preset-4-bold 
   font-family: Outfit;
   font-size: var(--font-size-desktop-text-preset-4, 16px);
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 24px */ /* Space between number and text */
+  line-height: 150%; 24px  Space between number and text 
 }
 .preparation {
   padding: 0 var(--spacing-300) 0 var(--spacing-300);
@@ -142,12 +452,12 @@ ol {
 .ingridients ul {
   color: var(--color-stone-600, #5f564d);
 
-  /* Desktop/text-preset-4 */
+  /* Desktop/text-preset-4 
   font-family: Outfit;
   font-size: var(--font-size-desktop-text-preset-4, 16px);
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 24px */
+  line-height: 150%; /* 24px 
 }
 .separator {
   height: 1px;
@@ -176,12 +486,12 @@ ol {
   display: block;
   color: var(--color-brown-800, #854632);
 
-  /* Desktop/text-preset-4-bold */
+  /* Desktop/text-preset-4-bold 
   font-family: Outfit;
   font-size: var(--font-size-desktop-text-preset-4, 16px);
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 24px */
+  line-height: 150%; /* 24px 
 }
 .row {
   display: flex;
@@ -192,10 +502,10 @@ ol {
 }
 .nutrition_span,
 .nutrition_span_value {
-  flex: 1; /* Ensures both spans take up equal space */
-  text-align: left; /* Aligns text in .nutrition_span to the left */
+  flex: 1; /* Ensures both spans take up equal space 
+  text-align: left; /* Aligns text in .nutrition_span to the left 
 }
-/* Tablet styles */
+/* Tablet styles 
 @media (min-width: 768px) {
   body {
     padding: var(--spacing-1600) 0 var(--spacing-1600) 0;
@@ -218,7 +528,7 @@ ol {
   }
 }
 
-/* Desktop styles */
+ Desktop styles 
 @media (min-width: 1024px) {
   body {
     padding: var(--spacing-1600) 0 var(--spacing-1600) 0;
@@ -240,3 +550,4 @@ ol {
     font-size: var(--font-size-mobile-text-preset-1, 2.5rem);
   }
 }
+*/
