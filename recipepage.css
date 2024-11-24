@@ -16,6 +16,22 @@ body {
   height: vh;
 
 }
+body, h1, p {
+  line-height: 1; /* Or use design-specific values */
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+main {
+  justify-content: flex-start; /* Aligns children at the top */
+  align-items: center; /* Ensures horizontal centering */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 :root {
   --spacing-100: 0.5rem;
   --spacing-150: 0.75rem;
@@ -33,12 +49,16 @@ main {
   align-items: flex-start;
   background: var(--color-white, #fff);
   margin: 0 auto;
+  padding-top: 1px; /* Prevent margin collapsing */
 }
 article {
   display: flex;
   width: 375px;
   flex-direction: column;
   align-items: flex-start;
+  gap: var(--spacing-500, 40px);
+  padding-top: 1px; /* Small padding to prevent collapse */
+  overflow: hidden;
 }
 
 figure {
@@ -51,7 +71,7 @@ figure {
 }
 #text-section {
   display: flex;
-  padding: var(--spacing-400, 32px) var(--spacing-400, 32px);
+  padding: 0 var(--spacing-400, 32px);
   flex-direction: column;
   align-items: flex-start;
   gap: var(--spacing-400, 32px);
@@ -86,6 +106,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
+  background-color: red;
 }
 
 #preparation-time {
@@ -97,6 +118,7 @@ h1 {
   align-self: stretch;
   border-radius: var(--spacing-150, 12px);
   background: var(--color-rose-50, #fff7fb);
+  background-color: red;
 }
 
 #preparation-time h2 {
