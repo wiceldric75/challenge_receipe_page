@@ -117,7 +117,7 @@ h1 {
   align-self: stretch;
   border-radius: var(--spacing-150, 12px);
   background: var(--color-rose-50, #fff7fb);
-
+}
 
 #preparation-time h2 {
   color: var(--color-rose-800, #7a284e);
