@@ -367,4 +367,7 @@ ol {
     gap: var(--spacing-500, 40px);
     flex-shrink: 0;
   }
+  h1 {
+    font-size: var(--font-size-desktop-text-preset-1, 40px);
+  }
 }
