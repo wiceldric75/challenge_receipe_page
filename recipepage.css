@@ -18,12 +18,11 @@ body {
 main {
   display: flex;
   width: 1440px;
-  padding: 10px var(--spacing-600, 48px);
+  padding: 128px var(--spacing-600, 48px);
   justify-content: center;
   align-items: center;
   gap: var(--spacing-100, 8px);
-  height: 2000px;
-  background-color: red;
+  background-color: blue;
 }
 
 section {
