@@ -321,7 +321,6 @@ ol {
     gap: var(--spacing-100, 8px);
     background: var(--color-stone-100, #f3e5d7);
     width: 768px;
-    background-color: green;
   }
   article {
     background-color: white;
@@ -333,7 +332,6 @@ ol {
     gap: var(--spacing-500, 40px);
     flex: 1 0 0;
     border-radius: var(--spacing-300, 24px);
-    background-color: red;
   }
   figure {
     height: 300px;
