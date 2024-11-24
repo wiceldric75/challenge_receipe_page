@@ -57,7 +57,7 @@ figure {
   align-self: stretch;
 }
 
-h1 {
+h2 {
   color: var(--color-stone-900, #312e2c);
 
   /* Mobile/text-preset-1 */
@@ -98,7 +98,7 @@ h1 {
   background: var(--color-rose-50, #fff7fb);
 }
 
-#preparation-time h2 {
+#preparation-time h3 {
   color: var(--color-rose-800, #7a284e);
 
   /* Desktop/text-preset-3 */
@@ -109,7 +109,7 @@ h1 {
   line-height: 100%; /* 20px */
 }
 
-h2 {
+h3 {
   color: var(--color-brown-800, #854632);
 
   /* Desktop/text-preset-2 */
@@ -256,7 +256,7 @@ ol {
   line-height: 150%; /* 24px */
   align-self: stretch;
 }
-#nutrition h2 {
+#nutrition h3 {
   color: var(--color-brown-800, #854632);
 
   /* Desktop/text-preset-2 */
@@ -340,7 +340,7 @@ ol {
   #text-section {
     padding: 0px;
   }
-  h1 {
+  h2 {
     font-size: var(--font-size-desktop-text-preset-1, 40px);
   }
 }
@@ -366,7 +366,7 @@ ol {
     gap: var(--spacing-500, 40px);
     flex-shrink: 0;
   }
-  h1 {
+  h2 {
     font-size: var(--font-size-desktop-text-preset-1, 40px);
   }
 }
