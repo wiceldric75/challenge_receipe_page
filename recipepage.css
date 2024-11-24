@@ -33,7 +33,7 @@ main {
   background: var(--color-white, #fff);
   margin: 0 auto;
 }
-article {
+#card {
   display: flex;
   width: 375px;
   flex-direction: column;
@@ -322,7 +322,7 @@ ol {
     background: var(--color-stone-100, #f3e5d7);
     width: 768px;
   }
-  article {
+  #card {
     background-color: white;
     display: flex;
     width: 616px;
@@ -357,7 +357,7 @@ ol {
     padding: 0;
   }
 
-  article {
+  #card {
     display: flex;
     width: 736px;
     padding: var(--spacing-500, 40px);
