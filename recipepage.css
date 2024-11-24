@@ -332,6 +332,7 @@ ol {
     gap: var(--spacing-500, 40px);
     flex: 1 0 0;
     border-radius: var(--spacing-300, 24px);
+    background-color: red;
   }
   figure {
     height: 300px;
@@ -349,5 +350,6 @@ ol {
     width: 736px;
     max-width: 736px;
     flex-shrink: 0;
+    background-color: blue;
   }
 }
