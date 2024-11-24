@@ -13,6 +13,7 @@ html {
 }
 body {
   background-color: #f3e5d7;
+  height: vh;
 
 }
 :root {
@@ -362,6 +363,5 @@ ol {
     align-items: flex-start;
     gap: var(--spacing-500, 40px);
     flex-shrink: 0;
-    background-color: blue;
   }
 }
